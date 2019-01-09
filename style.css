@@ -1,0 +1,109 @@
+html, body{
+	background-color: black;
+	color: white;
+	text-align:center;
+	font-family: Trebuchet MS;
+}
+
+
+header{
+	font-size: 10pt;
+}
+
+h1{
+	
+}
+
+h3{
+	color:yellow;
+}
+#header-img{
+	max-width: 50%;
+	display: block;
+	height: auto;
+	margin: auto;
+	padding-bottom:3%;
+	
+}
+
+#topbreak{
+	width: 80%;
+	height: 3px;
+	background-color: orange;
+	margin:auto;
+	margin-bottom: 3%;
+}
+nav{
+	position: fixed;
+	top:0px;
+	left:0px;
+	width:93%;
+	align-items:center;
+}
+#nav-bar{
+	display:flex;
+	margin-bottom:3%;
+	margin-left:2%;
+	margin-right:2%;
+	margin-top:2%;
+	justify-content: space-around;
+	background-color: #ffcc66;
+	border-radius:6px;
+	padding: 5px;
+	align-items: center;
+}
+
+.nav-link{
+	color: red;
+	text-decoration: none;
+	font-weight:bold;
+}
+
+.nav-link:hover{
+	font-size: 103%;
+	color: darkblue;
+}
+
+#vidarea{
+	display:flex;
+	justify-content: center;
+	margin-bottom: 1.5%;
+}
+#video{
+	max-width: 90%;
+resize: both;
+	overflow: auto;
+}
+
+#biggest-container{
+	display: flex;
+		justify-content: space-around;
+}
+
+#green-block{
+	background-color: green;
+	width:200px;
+	height:200px;
+}
+
+#red-block{
+	background-color: red;
+	width:200px;
+	height:200px;
+}
+
+.lower-section{
+	padding:0.5%;
+	margin:2%;
+}
+
+footer{
+	padding:2%;
+	font-size:9pt;
+}
+
+@media only screen and (max-width: 400px) {
+  #nav-bar {
+    display: none;
+  }
+}
